@@ -1,0 +1,72 @@
+.chat-tabs {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.chat-tab {
+  padding: 4px 0;
+  border: none;
+  border-bottom: 2px solid transparent;
+  background: none;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.chat-tab.active {
+  color: var(--text);
+  border-bottom-color: var(--brown);
+}
+
+.chat-group {
+  border-bottom: 1px solid var(--border);
+}
+
+.chat-group-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 8px 0;
+  border: none;
+  background: none;
+  font-size: 12px;
+  text-align: left;
+}
+
+.chat-group-thumb {
+  width: 18px;
+  height: 18px;
+}
+
+/* pushes the dot and arrow to the right */
+.chat-group-name {
+  flex: 1;
+}
+
+.chat-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--red);
+}
+
+.chat-channels {
+  padding-bottom: 8px;
+  font-size: 12px;
+}
+
+.chat-channels li {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0;
+}
+
+.chat-count {
+  padding: 0 7px;
+  border-radius: 10px;
+  background: var(--red);
+  color: white;
+  font-size: 10px;
+}

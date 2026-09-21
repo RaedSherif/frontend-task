@@ -1,0 +1,43 @@
+.hours-total {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.hours-label {
+  font-size: 11px;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+
+/* bars sit on the bottom of this box and grow upwards */
+.hours-chart {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 8px;
+  height: 90px;
+}
+
+.hours-axis {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  font-size: 10px;
+  color: var(--muted);
+}
+
+.hours-bar {
+  width: 20px;
+  background: var(--dark-green);
+  border-radius: 3px;
+}
+
+.hours-days {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6px;
+  padding-left: 20px;
+  font-size: 10px;
+  font-weight: bold;
+}

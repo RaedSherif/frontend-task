@@ -1,0 +1,9 @@
+.welcome-title {
+  font-size: 22px;
+  margin-bottom: 4px;
+}
+
+.welcome-quote {
+  font-size: 13px;
+  color: var(--muted);
+}

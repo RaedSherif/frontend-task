@@ -1,0 +1,90 @@
+.courses-heading {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.courses-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.courses-table th {
+  padding: 8px;
+  text-align: left;
+  font-size: 11px;
+  font-weight: normal;
+  color: var(--muted);
+}
+
+.courses-table td {
+  padding: 10px 8px;
+  border-top: 1px solid var(--border);
+}
+
+.course-name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.course-campus {
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.course-progress {
+  width: 30%;
+}
+
+.status {
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.status.in_progress {
+  background: #fbf0df;
+  color: #b06a1e;
+}
+
+.status.completed {
+  background: #e5f3ea;
+  color: #2f7d4a;
+}
+
+.status.not_started {
+  background: #efeeeb;
+  color: #6f6a62;
+}
+
+.course-button {
+  border: none;
+  background: none;
+  color: var(--brown);
+  font-weight: bold;
+}
+
+.course-button.view {
+  color: var(--muted);
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+/* on small screens make the table smaller so it fits */
+@media (max-width: 768px) {
+  .courses-table {
+    font-size: 11px;
+  }
+
+  .courses-table td,
+  .courses-table th {
+    padding: 8px 3px;
+  }
+
+  .course-name .thumb,
+  .course-campus {
+    display: none;
+  }
+}
