@@ -40,6 +40,8 @@
   display: flex;
   gap: 12px;
   overflow-x: auto;
+  /* hide the scrollbar, the row can still be scrolled with a swipe or shift + mouse wheel */
+  scrollbar-width: none;
 }
 
 /* mobile: put the two columns under each other */
