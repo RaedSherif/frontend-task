@@ -48,4 +48,4 @@ src/
 - Dark mode.
 ## Time spent
 
-_Roughly X hours_ **3**
+_Roughly 3 hours_
